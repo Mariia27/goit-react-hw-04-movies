@@ -1,0 +1,114 @@
+body {
+  background-color: aqua;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.headerCont {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  top: 0;
+  left: 0;
+}
+.infoBlock {
+  padding-top: 320px;
+}
+
+.g-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navigation {
+  display: flex;
+
+  margin-top: 70px;
+}
+.listNav:not(:last-child) {
+  margin-right: 100;
+}
+.lol {
+  justify-content: center;
+}
+.g-a {
+  text-decoration: none;
+}
+
+.activeLinkNav {
+  background-color: yellow;
+}
+
+.button {
+  text-decoration: none;
+  color: tomato;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 2px solid;
+  border-color: blue;
+
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0);
+}
+
+.constainerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.linkFilms {
+  display: flex;
+  min-height: 80px;
+  color: white;
+  background-color: teal;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage {
+  color: white;
+  font-size: 50px;
+}
+.titleTextListTrends {
+  font-size: 25px;
+  display: flex;
+}
+
+.constainerDetalFilm {
+  color: white;
+  display: flex;
+}
+.nameSactionDetalFilm {
+  color: white;
+}
+.imagesTitle {
+  margin-right: 120px;
+}
+.ul-genres {
+  padding-left: 20px;
+}
+.linkDetalFilm {
+  text-decoration: none;
+  color: #f7660e;
+}
